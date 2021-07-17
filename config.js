@@ -1,4 +1,4 @@
-exports.port = process.env.PORT || 3000;
+exports.port = process.env.PORT || 4000;
 exports.enable_logging = false;
 exports.fetch_regex = /^\/fetch\/(.*)$/; // The URL to look for when parsing the request.
 exports.proxy_request_timeout_ms = 10000; // The lenght of time we'll wait for a proxy server to respond before timing out.
